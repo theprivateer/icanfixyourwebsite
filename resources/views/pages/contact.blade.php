@@ -56,7 +56,7 @@
                         <fieldset>
                             <legend class="size-3xl"><strong>The Website</strong></legend>
 
-                            <label for="name">Website URL</label>
+                            <label for="url">Website URL</label>
                             <input type="text" id="url" name="url" placeholder="https://" required>
 
                             <label for="description">Tell me about the issues you are experiencing</label>
