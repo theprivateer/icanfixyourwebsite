@@ -8,18 +8,22 @@
 		<meta name="description" content="Web design and development that helps your business grow, with performance, clarity, and ownership up front">
 
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/kelpui@1/css/kelp.css">
-        <script type="module" src="https://cdn.jsdelivr.net/npm/kelpui@1/js/kelp.js"></script>
 
         <x-feed-links />
 
-        <link rel="stylesheet" href="/css/fonts.css">
         <style>
+            @import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans:ital,wght@0,300..700;1,300..700&display=swap');
+
             @layer kelp.theme {
                 :root {
                     --font-size-base: 150%;
-                    --font-primary: "Satoshi", sans-serif;
-		            --font-secondary: "Satoshi", sans-serif;
+                    --font-primary: "Inclusive Sans", sans-serif;
+		            --font-secondary: "Inclusive Sans", sans-serif;
                 }
+            }
+
+            h1, h2, h3 {
+                line-height: 1.1;
             }
 
             .logo {
